@@ -1,0 +1,50 @@
+#app {
+    font-size: 120%;
+  }
+  
+  #app p,
+  #app a,
+  #app h1 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+  }
+  
+  #app div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+  }
+  
+  #app dialog {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  #app dialog footer {
+    text-align: center;
+  }
+  
+  #app dialog a {
+    text-align: center;
+    display: inline-block;
+    font-family: inherit;
+    font-size: 100%;
+    padding: 0.5em 1em;
+    color: #444;
+    color: rgba(0, 0, 0, 0.8);
+    border: 1px solid #999;
+    border: transparent;
+    background-color: #e6e6e6;
+    text-decoration: none;
+    border-radius: 2px;
+    transition: box-shadow 0.2s;
+  }
+  
+  
+  #app dialog a:hover {
+    box-shadow: 0 0 5px black;
+  }
